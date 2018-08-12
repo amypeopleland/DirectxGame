@@ -1,0 +1,49 @@
+﻿Build started 2016/5/31 15:19:56.
+     1>Project "F:\作品集\directx\完成游戏！\Draw_Texture\Draw_Texture\Draw_Texture.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Draw_Texture.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BoundingSphere.cpp camera.cpp D3DObject.cpp D3DUT.cpp main.cpp MyD3D.cpp Object_Texture.cpp pSystem.cpp Xfile.cpp XFileModel.cpp /wd4430 
+         XFileModel.cpp
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\xfilemodel.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\xfilemodel.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\xfilemodel.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\xfilemodel.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+         Xfile.cpp
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\xfile.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\xfile.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\xfile.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+         pSystem.cpp
+         Object_Texture.cpp
+         MyD3D.cpp
+         main.cpp
+         D3DUT.cpp
+         D3DObject.cpp
+         camera.cpp
+         BoundingSphere.cpp
+         Generating Code...
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\boundingsphere.cpp(45): warning C4715: 'BoundingSphere::CreatBoundingSphere' : not all control paths return a value
+     1>f:\作品集\directx\完成游戏！\draw_texture\draw_texture\myd3d.cpp(625): warning C4715: 'MyD3D::Render' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\作品集\directx\完成游戏！\Draw_Texture\Debug\Draw_Texture.exe" /INCREMENTAL:NO /NOLOGO winmm.lib d3d9.lib d3dx9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Draw_Texture.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\作品集\directx\完成游戏！\Draw_Texture\Debug\Draw_Texture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\作品集\directx\完成游戏！\Draw_Texture\Debug\Draw_Texture.lib" /MACHINE:X86 Debug\BoundingSphere.obj
+         Debug\camera.obj
+         Debug\D3DObject.obj
+         Debug\D3DUT.obj
+         Debug\main.obj
+         Debug\MyD3D.obj
+         Debug\Object_Texture.obj
+         Debug\pSystem.obj
+         Debug\Xfile.obj
+         Debug\XFileModel.obj
+     1>BoundingSphere.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Draw_Texture.vcxproj -> F:\作品集\directx\完成游戏！\Draw_Texture\Debug\Draw_Texture.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\作品集\directx\完成游戏！\Draw_Texture\Debug\Draw_Texture.exe;#1" /manifest Debug\Draw_Texture.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Draw_Texture.unsuccessfulbuild".
+         Touching "Debug\Draw_Texture.lastbuildstate".
+     1>Done Building Project "F:\作品集\directx\完成游戏！\Draw_Texture\Draw_Texture\Draw_Texture.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.13
